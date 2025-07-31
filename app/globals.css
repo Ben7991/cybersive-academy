@@ -1,5 +1,49 @@
 @import "tailwindcss";
 
+:root {
+  --light-blue-100: #a9d3ee;
+  --blue-100: #1f83c1;
+  --dark-blue-100: #153b7a;
+  --dark-blue-200: #182e54;
+
+  --gray-300: #646361;
+  --gray-500: #51514f;
+}
+
 body {
-  
+  font-family: var(--font-archivo);
+  font-weight: 400;
+  font-style: normal;
+  color: var(--gray-300);
+  background-color: #f1f8fd;
+  line-height: 1.7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  color: #000;
+}
+
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.75em;
+}
+h3 {
+  font-size: 1.5em;
+}
+h4 {
+  font-size: 1.25em;
+}
+h5 {
+  font-size: 1em;
+}
+h6 {
+  font-size: 0.75rem;
 }
